@@ -1,6 +1,7 @@
-This repository contains a skeleton for setting up a development environment for EOS contracts targeting Dawn 2.0 or Dawn 3.0 with the CLion IDE
+基于EOS智能合约开发的卡牌游戏《西游降妖志》，项目在开发阶段，欢迎大家对代码进行审核。
 
-For a tutorial, see the following post:
+目前用户数据结构已经定义完成，主要思想模拟帧同步，客户端把操作命令打包，智能合约顺序演算，保证结果完全一致。
 
-https://steemit.com/eos/@ukarlsson/eos-contracts-development-with-the-clion-ide
-# EosCMakeTemplate
+因此，在定义用户数据结构时，要使用所有数据缓存的方式，演算完成后只执行一次数据库操作。
+
+开发过程中会把一些遇到的问题已经学到的知识分享到币乎上：https://bihu.com/people/155006/
